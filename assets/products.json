@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Kablosuz Kulaklık",
+    "category": "Ses",
+    "price": 1299.90,
+    "rating": 4.6,
+    "image": "assets/images/kulaklik.png",
+    "description": "Aktif gürültü engelleme özellikli kablosuz kulaklık. Tek şarjla 30 saate kadar müzik keyfi sunar, katlanabilir yapısı sayesinde kolayca taşınır."
+  },
+  {
+    "id": 2,
+    "name": "Akıllı Saat",
+    "category": "Giyilebilir",
+    "price": 3499.00,
+    "rating": 4.4,
+    "image": "assets/images/saat.png",
+    "description": "Nabız, uyku ve adım takibi yapan akıllı saat. Suya dayanıklı gövdesi ve 7 güne varan pil ömrü ile günlük kullanıma uygundur."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Hoparlör",
+    "category": "Ses",
+    "price": 899.50,
+    "rating": 4.2,
+    "image": "assets/images/hoparlor.png",
+    "description": "Taşınabilir Bluetooth hoparlör. Güçlü bas performansı ve 12 saatlik pil ömrü ile açık havada da kullanılabilir."
+  },
+  {
+    "id": 4,
+    "name": "Dizüstü Bilgisayar",
+    "category": "Bilgisayar",
+    "price": 28999.00,
+    "rating": 4.8,
+    "image": "assets/images/laptop.png",
+    "description": "14 inç ekranlı, hafif ve ince dizüstü bilgisayar. 16 GB bellek ve 512 GB SSD ile yazılım geliştirme ve günlük işler için idealdir."
+  },
+  {
+    "id": 5,
+    "name": "Tablet",
+    "category": "Bilgisayar",
+    "price": 12499.00,
+    "rating": 4.5,
+    "image": "assets/images/tablet.png",
+    "description": "11 inç ekranlı tablet. Not alma, çizim ve video izleme için geniş ve canlı bir ekran sunar."
+  },
+  {
+    "id": 6,
+    "name": "Akıllı Telefon",
+    "category": "Telefon",
+    "price": 21999.00,
+    "rating": 4.7,
+    "image": "assets/images/telefon.png",
+    "description": "6.1 inç OLED ekranlı akıllı telefon. Çift kamera sistemi ve gün boyu yeten bataryası ile öne çıkar."
+  },
+  {
+    "id": 7,
+    "name": "Mekanik Klavye",
+    "category": "Aksesuar",
+    "price": 1749.00,
+    "rating": 4.3,
+    "image": "assets/images/klavye.png",
+    "description": "Türkçe Q dizilimli mekanik klavye. Dayanıklı tuş yapısı ve arka aydınlatması ile uzun yazım seanslarında konfor sağlar."
+  },
+  {
+    "id": 8,
+    "name": "Kablosuz Mouse",
+    "category": "Aksesuar",
+    "price": 649.90,
+    "rating": 4.1,
+    "image": "assets/images/mouse.png",
+    "description": "Ergonomik tasarımlı kablosuz mouse. Sessiz tıklama özelliği ve tek pille aylarca kullanım sunar."
+  }
+]

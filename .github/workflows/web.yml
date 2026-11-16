@@ -1,0 +1,36 @@
+# Uygulamayı Flutter Web olarak derler ve GitHub Pages üzerinde yayınlar.
+name: Flutter Web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.5'
+          channel: stable
+
+      - name: Platform klasörlerini oluştur
+        run: |
+          flutter create --project-name mini_katalog --platforms=android,ios,web .
+          rm -rf test
+
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos
+      - run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
+
+      - name: GitHub Pages'e yayınla
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/web

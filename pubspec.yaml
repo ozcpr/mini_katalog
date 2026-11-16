@@ -1,0 +1,17 @@
+name: mini_katalog
+description: Flutter ile geliştirilmiş Mini Katalog Uygulaması.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/products.json
+    - assets/images/
